@@ -1,3 +1,3 @@
 FROM tomcat:latest
-ADD mkdir vijitha
+CMD mkdir vijitha
 
