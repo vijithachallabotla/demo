@@ -15,7 +15,7 @@
            unarchive: src=/home/ubuntu/apache-tomcat-8.5.50.tar.gz dest=/home/ubuntu/ remote_src=yes
          - name: copying the war file
            copy: 
-             src: target/*.war
+             src: target/insurence.war
              dest: /home/ubuntu/apache-tomcat-8.5.50/webapps/
         # - name: downloading war file
        #    get_url: url=https://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/sample.war dest=/home/ubuntu/apache-tomcat-8.5.50/webapps/
